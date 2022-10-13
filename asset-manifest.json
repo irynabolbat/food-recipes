@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/food-recipes/static/css/main.7a04f813.css",
+    "main.js": "/food-recipes/static/js/main.4fa90cab.js",
+    "static/media/logo.png": "/food-recipes/static/media/logo.feb6183b11dffafb39b4.png",
+    "index.html": "/food-recipes/index.html",
+    "main.7a04f813.css.map": "/food-recipes/static/css/main.7a04f813.css.map",
+    "main.4fa90cab.js.map": "/food-recipes/static/js/main.4fa90cab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7a04f813.css",
+    "static/js/main.4fa90cab.js"
+  ]
+}
