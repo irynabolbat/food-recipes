@@ -1,0 +1,32 @@
+.items_list_container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    justify-content: space-around;
+    padding: 0 5% 3% 5%;
+}
+
+.item {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    color: var(--text-color-main);
+    padding: 5%;
+}
+
+.item:hover {
+    cursor: pointer;
+    color: var(--background-color);
+}
+
+.item_img {
+    width: 80%;
+    border-radius: var(--border-radius);
+}
+
+@media screen and (max-width: 660px) {
+    .items_list_container {
+        grid-template-columns: 50% 50%
+    }
+}

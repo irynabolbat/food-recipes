@@ -1,0 +1,8 @@
+.about_wrapper {
+    color: var(--text-color-main);
+}
+
+.about_text_container {
+    width: 90%;
+    margin: 0 5% 3% 5%;
+}

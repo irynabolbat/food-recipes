@@ -1,0 +1,32 @@
+.load_pagination_wrapper {
+    padding: 0 0 3% 0;
+    z-index: 10;
+}
+
+.load_pagination {
+    display: flex;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    color: var(--text-color-main);
+    border: none !important;
+    background-color: transparent !important;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.load_pagination:hover {
+    cursor: pointer;
+    color: var(--background-color);
+}
+
+.load_pagination:hover .load_icon {
+    transform: rotate(360deg);
+    transition: 0.5s
+}
+
+.load_icon {
+    width: 30px;
+    height: 30px;
+    margin: 0 1%;
+}

@@ -1,0 +1,65 @@
+.meal_recipe_wrapper {
+    color: var(--text-color-main);
+    text-align: center;
+}
+
+.meal_recipe_img {
+    width: 35%;
+}
+
+.meal_recipe_info {
+    text-align: center;
+    margin-top: 1%;
+    margin-bottom: 3%;
+}
+
+.meal_recipe_info_span {
+    font-weight: bold;
+}
+
+.meal_recipe_table_box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meal_recipe_table_box table {
+    width: 35%;
+    margin-bottom: 2%;
+}
+
+.meal_recipe_table {
+    text-align: start;
+}
+
+.meal_recipe_table th, tr, td {
+    border: var(--border);
+    padding: 1%;
+}
+
+.meal_recipe_instructions {
+    text-align: start;
+    width: 90%;
+    margin: 0 5%;
+}
+
+.meal_recipe_video {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+}
+
+@media screen and (max-width: 660px) {
+    .meal_recipe_img {
+        width: 80%;
+    }
+
+    .meal_recipe_table_box table {
+        width: 80%;
+    }
+
+    .recipe_video div {
+        width: 80% !important;
+        margin: 0 10% !important;
+    }
+}

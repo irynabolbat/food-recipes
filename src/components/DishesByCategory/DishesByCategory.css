@@ -1,0 +1,8 @@
+.dishes_by_category_wrapper {
+    text-align: center;
+    color: var(--text-color-main);
+}
+
+.dishes_by_category_container {
+    padding: 0 5% 0 5%;
+}

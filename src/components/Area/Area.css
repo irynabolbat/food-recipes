@@ -1,0 +1,8 @@
+.all_areas_wrapper {
+    text-align: center;
+    color: var(--text-color-main);
+}
+
+.area {
+    padding: 3%;
+}
