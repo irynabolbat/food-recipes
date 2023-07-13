@@ -1,1 +1,1 @@
-Demo: https://irinabolbat.github.io/food-recipes/
+Demo: https://irynabolbat.github.io/food-recipes/
